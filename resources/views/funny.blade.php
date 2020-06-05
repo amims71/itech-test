@@ -42,8 +42,21 @@
         <br/><br/>6. <a target="_blank" href="{{url('i-m-funny')}}">i-m-funny</a>. Enlisted the answers.
         <br/>&emsp;&emsp;6a. What do you think about the current condition of software development in bangladesh and how this differ from the other developed countries?
         <br/>&emsp;&emsp;&emsp;&emsp;Also put a comment how we can improve ourselves as a giant digital developed nation in this field?
+        <br/><pre>
+            Most of our developers are just coder. They are expert in coding. Or, somehow, they know, how to code and develop.
+            But, It's more important to know about the architecture, algorithm, and other diagrams for developing. Our Govt.
+            costs a huge amount of money to train our young generation. But, It will be a huge loss if the quality control is
+            not taken seriously. Most of the companies hires only developer. They don't give a damn to testing, QA, Security,
+            architectures, algorithms. In some cases, developers do the other things, where in other countries, everything is
+            well maintained.
+
+            To improve ourselves, we have to maintain proper development process.
+        </pre>
         <br/>&emsp;&emsp;6b. Two fathers & two sons went for fishing. They caught 3 fish. How its possible to equally distribute these 3 fish among all of them without piecing and without killing any of them?
-        <br/><br/>
+        <br/><pre>
+            An Old man, his Son and his son. Here are two fathers and 2 sons. total, 3 persons. so, no problem. We don't need to kill anyone.
+        </pre>
+        <br/>
         <br/><br/>
         <h1 class="m-b-md" style="font-size: 40px">Its done!!</h1>
         <br/><br/>
