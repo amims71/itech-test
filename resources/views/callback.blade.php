@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Itech Test</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            height: 100vh;
+            margin: 0;
+            padding: 10px;
+        }
+        table{
+            margin-left: 45px;
+        }
+
+        td{
+            border: 1px solid #eee;
+            padding: 3px;
+            text-align: center;
+        }
+        code{
+            color: #007b00;
+        }
+        a{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="m-b-md" style="font-size: 40px">Let's have some coffee...</h1>
+<pre>
+    function checkAge(data, callback) {
+        if(data.age >= 18) {
+            callback(true);
+        }else {
+            callback(false);
+        }
+    }
+    var data = {email:'trump@gmail.com', age:12};
+
+    checkAge(data, function(email) {
+        if(!email) console.log("Email is not valid");
+        else console.log("Email is valid");
+    })
+        </pre>
+        <h1 class="m-b-md" style="font-size: 40px">Its done!!</h1>
+        <br/><br/>
+        <br/><br/>
+    </div>
+</body>
+</html>

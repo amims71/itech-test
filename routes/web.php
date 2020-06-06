@@ -25,3 +25,24 @@ Route::get('record-transfer',"Controller@recordTransfer");
 Route::get('i-m-funny',function (){
     return view('funny');
 });
+Route::get('define-callback-js',function (){
+    return view('callback');
+});
+Route::get('sort-js',function (){
+    return view('sort');
+});
+Route::get('foreach-js',function (){
+    return view('foreach');
+});
+Route::get('filter-js',function (){
+    return view('filter');
+});
+Route::get('map-js',function (){
+    return view('map');
+});
+Route::get('reduce-js',function (){
+    return view('reduce');
+});
+Route::get('animation',function (){
+    return view('animation');
+});

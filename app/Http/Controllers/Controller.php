@@ -16,15 +16,21 @@ class Controller extends BaseController
 
     public function recordTransfer(){
         Record::query()->truncate();
+        echo "Previous records Truncated.<br>";
 
         $path = storage_path() . "/app/public/records.json";
 
         $json = json_decode(file_get_contents($path), true)['RECORDS'];
+
+        echo "Waiting...";
         foreach (array_chunk($json,1000) as $t)
         {
             DB::table('records')->insert($t);
+            echo ".";
         }
-        dd( Record::all());
+
+        echo "<br></br>Total <b>".Record::count()."</b> rows are inserted!";
+//        dd( Record::all());
     }
 
     public function purchaseListEloquent(){
